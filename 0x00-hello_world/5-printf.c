@@ -1,8 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - Starting point
+ *
+ * Return: Success (0)
+ */
+
 int main(void)
 {
-	char message[] = "with proper grammar, but the outcome is a piece of art,";
-	printf("%s\n", message);
+	printf("with proper grammar, but the outcome is a piece of art,\n", message);
 	return (0);
 }
